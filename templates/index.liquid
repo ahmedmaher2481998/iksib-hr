@@ -1,0 +1,9 @@
+{% for item in collections %}
+
+
+
+  {% if item.handle == "frontpage" %}
+
+    {% render 'home-page-as-section', item: item %}
+  {% endif %}
+{% endfor %}

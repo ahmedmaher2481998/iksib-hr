@@ -1,0 +1,93 @@
+<div class="px-6 md:px-20  w-full h-full min-h-screen flex flex-col my-4">
+  <!-- Cards & rating  -->
+  <section class="container bg-gray-300 flex flex-col md:flex-row rounded-lg  mx-auto max-w-screen-lg">
+    <div class="flex flex-col w-full md:w-1/2 p-6 items-start justify-between ">
+      <h2 class="text-sky-400 font-bold text-5xl md:text-7xl mb-3 w-[30rem] ">Find the best Facebook jobs</h2>
+      <p class="text-black mb-4 ">It takes just one job to develop a successful relationship that can propel your career forward.</p>
+      <div class="flex w-full justify-between items-center flex-wrap">
+        <button class="bg-sky-400 px-6 py-2 rounded-full text-white">find work</button>
+        <a href="#" class="hover:underline text-sky-300">want to hire a facebook expert?</a>
+      </div>
+    </div>
+    <!-- 2nd Card -->
+    <div class="flex flex-col w-full md:w-1/2  bg-sky-600 m-4 p-2 rounded-lg items-start justify-between">
+      <div>
+        <h2 class="text-black font-bold text-4xl md:text-6xl mb-2">Professionals on Upwork rate clients
+        </h2>
+        <div class="flex items-center justify-center w-max text-4xl md:text-6xl">
+          <span class="text-black flex ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"><path fill="none" d="M0 0h24v24H0z" /><path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z" fill="rgba(56,189,248,1)" /></svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"><path fill="none" d="M0 0h24v24H0z" /><path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z" fill="rgba(56,189,248,1)" /></svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"><path fill="none" d="M0 0h24v24H0z" /><path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z" fill="rgba(56,189,248,1)" /></svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"><path fill="none" d="M0 0h24v24H0z" /><path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z" fill="rgba(56,189,248,1)" /></svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"><path fill="none" d="M0 0h24v24H0z" /><path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z" fill="rgba(56,189,248,1)" /></svg>
+
+          </span>
+          <span class="mr-2">
+            4.9/5
+          </span>
+        </div>
+      </div>
+      <p class="text-gray-200">on average from 2M+ reviews
+      </p>
+    </div>
+  </section>
+  <!-- Our Custommers  -->
+  <section class="p-6 border-t-2 border-b-2 flex flex-col items-center justify-center  w-full  mt-20 mx-auto ">
+    <div class="w-full text-center text-black text-[30px]">
+      Our Clients
+    </div>
+    <div class="w-full flex items-center  border-gray-400 border-opacity-80 justify-between flex-wrap">
+      <img
+        src="{{"client-1.png" |asset_img_url}}"
+        alt="airbnb"
+        class="h-full max-h-20 object-contain ">
+      <img
+        src="{{"client-2.png" |asset_img_url}}"
+        alt="airbnb"
+        class="h-full max-h-20 object-contain ">
+      <img
+        src="{{"client-3.png" |asset_img_url}}"
+        alt="airbnb"
+        class="h-full max-h-20 object-contain ">
+      <img
+        src="{{"client-4.png" |asset_img_url}}"
+        alt="airbnb"
+        class="h-full max-h-20 object-contain ">
+      <img
+        src="{{"client-5.png" |asset_img_url}}"
+        alt="airbnb"
+        class="h-full max-h-20 object-contain ">
+      <img
+        src="{{"client-6.svg" | asset_url}}"
+        alt="airbnb"
+        class="h-full max-h-20 object-contain ">
+    </div>
+  </section>
+  <section>
+
+    {% render 'pricing-items-home-page', thecollection: item %}
+  </section>
+
+  <section></section>
+</div>
